@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 well">
+            <header>
+            <h3 style="color:orangered;background-color:lightgreen;">Header Part</h3><hr style="background: blue;"/>
+        </header>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 well">
+                <h3 style="color:darkcyan;background: lightcoral;">Navigation Part
+                    <nav>
+                        <button><a routerLink="/web"routerLinkActive="active">web Technologies</a></button>   |
+                        <button><a routerLink="/java"routerLinkActive="active">Java Technology</a></button>   |
+                        <button><a routerLink="/python"routerLinkActive="active">Python Course</a></button>  |
+                        <button><a routerLink="/angular"routerLinkActive="active">Angular Course</a></button></nav></h3>
+            </div>
+            <div class="col-xs-8 well">
+
+                <h3>Body Part</h3>
+                <router-outlet></router-outlet>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 well">
+            <h3>Footer Part</h3>
+        </div>
+    </div>
+</div>

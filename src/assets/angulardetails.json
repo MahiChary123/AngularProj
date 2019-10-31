@@ -1,0 +1,6 @@
+[
+    {"coursename":"Python","coursefee":5000,"courseduration":"Two Months"},
+    {"coursename":"Angular","coursefee":4000,"courseduration":"One Month"},
+    {"coursename":"Data Science","coursefee":4500,"courseduration":"Forty Five Days"},
+    {"coursename":"Java","coursefee":3500,"courseduration":"One Month"}
+]
